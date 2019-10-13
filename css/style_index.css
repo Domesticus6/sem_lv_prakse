@@ -351,12 +351,30 @@ input[type=text] {
     background-image: -o-linear-gradient(bottom, rgba(255,255,255,1) 20%, rgba(0,0,0,0) 80%),url(../img/Town.jpg);
     background-image: linear-gradient(to top, rgba(255,255,255,1) 20%, rgba(0,0,0,0) 80%),url(../img/Town.jpg);
 }
+@media only screen and (max-width:991px) {
+		li{
+		margin-top: 20px!important;
+	}
+
+	li:first-child {
+		margin-top: 0!important;
+	}
+}
 
 @media only screen and (max-width:500px) {
 	.registration-language{
 		margin-top:0!important;
 	}
+
+	li{
+		margin-top: 15px!important;
+	}
+
+	li:first-child {
+		margin-top: 0!important;
+	}
 }
+
 
 @media only screen and (max-width:768px) {
   .top{
@@ -390,6 +408,7 @@ input[type=text] {
 	.center-block{
 		padding: 140px 0 0 0!important;
 	}
+
 }
 
 .registration-language{
@@ -409,9 +428,7 @@ input[type=text] {
 	width: 100%;
 }
 
-.row{
-	overflow: hidden;
-}
+
 
 .sms-bold{
 	font-size: 48px;
@@ -470,8 +487,7 @@ ul li .section_three:before {
     right: 0;
     left: 0;
     top: 0;
-    margin: -40px 0 0 0;
+    margin: -50px 0 0 0;
     font-size: 40px;
 }
-
 
