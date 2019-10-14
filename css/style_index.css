@@ -471,7 +471,12 @@ select {
 	margin-right: 30px;
 }
 
+@media only screen and (min-width:1157px) and (max-width: 1230px){
+	.section{
+		margin-right: 1.5rem!important;
+	}
 
+}
 /*header and top part end*/
 
 
@@ -490,4 +495,6 @@ ul li .section_three:before {
     margin: -50px 0 0 0;
     font-size: 40px;
 }
+
+
 
