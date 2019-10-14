@@ -363,7 +363,7 @@ input[type=text] {
 
 @media only screen and (max-width:500px) {
 	.registration-language{
-		margin-top:0!important;
+		margin-top:10px!important;
 	}
 
 	li{
@@ -380,6 +380,10 @@ input[type=text] {
   .top{
   	height:1050px!important;
   }
+
+  	.registration-language{
+		margin-top:10px!important;
+	}
 
 }
 .logo img{
@@ -495,6 +499,4 @@ ul li .section_three:before {
     margin: -50px 0 0 0;
     font-size: 40px;
 }
-
-
 
